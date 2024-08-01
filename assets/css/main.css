@@ -1507,7 +1507,7 @@ button,
   border-radius: 30px;
   border: 0;
   box-shadow: inset 0 0 0 2px #2575fc;
-  color: #2575fc !important;
+  color: #2575fc ;
   cursor: pointer;
   display: inline-block;
   font-family: "Airbnb Cereal App", serif;
@@ -1526,7 +1526,10 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgba(245, 106, 106, 0.05); }
+    background-color: #2575fc;
+   color: white !important;	
+   }
+   
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
@@ -1879,7 +1882,7 @@ width: 100%;	  }
     max-width: 110em; }
     #main > .inner > section {
       padding: 6em 0 4em 0 ;
-      border-top: solid 2px white; }
+      border-top: solid 1px #B8CEF5; }
       #main > .inner > section:first-of-type {
         border-top: 0 !important; }
   @media screen and (max-width: 1680px) {
@@ -2356,25 +2359,29 @@ font-family: 'Airbnb Cereal App'	}
         }
         .stats-box .text {
             font-size: 1.1em;
-        }
-		
-
+        }	
+		.stats-container .tech-box .tbox p.ttext{
+			margin-bottom: 16px !important;
+			padding-bottom: 16px;
+		}
         .tech-box .icon {
             font-size: 5em;
-			transition: transform 0.3s ease-in-out;
+			
         }
         .tech-box .ttext {
             font-size: 1.1em;
-          padding-bottom: 10px;
+          padding-bottom: 0px;
           margin-top: 5px;
         }
 .tbox{
   border-radius: 20px;
   border-color: transparent;
-  height: max-content;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ 
   
 }
 
-.tech-box .icon:hover{
-  transform:scale(1.13);
+.tbox:hover{
+  transform:scale(1.03);
+  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
 }
