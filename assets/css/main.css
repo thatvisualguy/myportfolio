@@ -90,8 +90,8 @@ html {
 
 body {
  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}
-  body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
-    }
+
+
 
 /* Type */
 body, input, select, textarea {
@@ -2294,20 +2294,20 @@ font-family: 'Airbnb Cereal App'	}
 
 .fade-in {
     opacity: 0; /* Initially hidden */
-    animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+    animation: fadeIn 0.5s ease-in-out 0.1s forwards;
 }
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+      from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
-.slideInUp {
-    animation: slideInUp 0.5s ease-in-out 0.5s forwards;
-}
 
 @keyframes slideInUp {
   0% {
@@ -2469,4 +2469,21 @@ font-family: 'Airbnb Cereal App'	}
 #scrollToTop.show {
     display: block; 
     opacity: 1; /* Change opacity to 1 when showing */
+}
+
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }

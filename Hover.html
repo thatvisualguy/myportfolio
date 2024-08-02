@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body>
+
+  <div class="w3-row w3-center">
+    <div class="w3-col l4 m4 w3-padding content">
+     <div class="w3-display-container imagee">
+       <img src="images/pic03.png">
+     <div class="text w3-display-middle">Middle</div>
+     </div>
+    </div>
+    <div class="w3-col l4 m4 w3-padding content">
+     <div class="w3-display-container imagee">
+       <img src="images/pic01.png">
+     <div class="text w3-display-middle">Middle</div>
+     </div>
+    </div>
+    <div class="w3-col l4 m4 w3-padding content">
+     <div class="w3-display-container imagee">
+       <img src="images/pic04.png">
+     <div class="text w3-display-middle">Middle</div>
+     </div>
+    </div>
+  </div>
+  
+  <style>
+  .imagee img{
+  width: 100%;
+  transition: filter 0.3s ease-in-out;
+  position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      object-fit: cover;
+}
+
+.imagee{
+  height:310px;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 30px;
+  position: relative;
+}
+
+.text{
+  padding-top: 50px;
+  color: white !important;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, padding-top 0.3s ease-in-out;
+  transition-delay: 0.2s;
+}
+
+.imagee:hover img{
+  filter:blur(15px);
+}
+
+.imagee:hover .text{
+  opacity: 1;
+  padding-top: 0px;
+}</style>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Masonry Layout</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="masonry">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+        <div class="item item5">Item 5</div>
+        <div class="item item6">Item 6</div>
+        <div class="item item7">Item 7</div>
+        <div class="item item8">Item 8</div>
+        <div class="item item9">Item 9</div>
+        <div class="item item10">Item 10</div>
+		<div class="item item11">Item 11</div>
+        <div class="item item12">Item 12</div>
+        <div class="item item13">Item 13</div>
+        <div class="item item14">Item 14</div>
+        <div class="item item15">Item 15</div>
+		<div class="item item16">Item 16</div>
+    </div>
+</body>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin: 0;
+    }
+    .masonry {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-auto-rows: 50px;
+        gap: 20px;
+    }
+
+    .item {
+        background-color: #ffffff;
+        padding: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        transition: transform 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2em;
+        color: #00000;
+    }
+
+    .item:hover {
+        transform: translateY(-10px);
+    }
+
+    /* Specific dimensions and colors for each item */
+    .item1 { grid-row: span 5; background-image: url('images/pic01.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item2 { grid-row: span 6; background-image: url('images/pic02.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item3 { grid-row: span 3; background-image: url('images/pic03.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item4 { grid-row: span 4; background-image: url('images/pic04.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item5 { grid-row: span 5; background-image: url('images/pic05.jpg'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item6 { grid-row: span 3; background-image: url('images/pic06.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item7 { grid-row: span 5; background-image: url('images/pic13.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item8 { grid-row: span 3; background-image: url('images/pic14.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item9 { grid-row: span 4; background-image: url('images/pic15.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item10 { grid-row: span 4; background-image: url('images/pic16.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+	.item11 { grid-row: span 3; background-image: url('images/pic01.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item12 { grid-row: span 6; background-image: url('images/pic02.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item13 { grid-row: span 3; background-image: url('images/pic03.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item14 { grid-row: span 3; background-image: url('images/pic04.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item15 { grid-row: span 5; background-image: url('images/pic05.jpg'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+    .item16 { grid-row: span 4; background-image: url('images/pic06.png'); background-position: center; background-size: 300px auto;  background-repeat: no-repeat; background-size: cover; }
+  </style>
+</html>
