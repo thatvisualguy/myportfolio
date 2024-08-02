@@ -103,7 +103,7 @@ body {
 /* Type */
 body, input, select, textarea {
   color: #7f888f;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Airbnb Cereal App", sans-serif;
   font-size: 13pt;
   font-weight: 400;
   line-height: 1.65; }
@@ -1578,7 +1578,7 @@ button,
     input[type="button"].primary:hover,
     button.primary:hover,
     .button.primary:hover {
-      background-color: #f67878; }
+      background-color: black; }
     input[type="submit"].primary:active,
     input[type="reset"].primary:active,
     input[type="button"].primary:active,
@@ -2456,3 +2456,24 @@ font-family: 'Airbnb Cereal App'	}
 .animation.in-view {
   opacity: 1; /* Fade in */
   transform: translateX(0); /* Move to the original position */
+  
+#scrollToTop {
+    display: none; /* Hidden by default */
+    position: sticky; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    background-color: #000; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px;
+    opacity: 0; /* Start with opacity 0 for fade-in effect */
+    transition: opacity 0.5s; /* Fade-in transition */
+    text-align: center; /* Center text inside the div */
+}
+
+#scrollToTop.show {
+    display: block; 
+    opacity: 1; /* Change opacity to 1 when showing */
+}
