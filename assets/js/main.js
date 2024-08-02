@@ -280,5 +280,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
+    document.addEventListener('DOMContentLoaded', () => {
+            const elements = document.querySelectorAll('.element-to-animate');
+            elements.forEach(element => {
+                element.classList.add('fade-in');
+            });
+        });
 
