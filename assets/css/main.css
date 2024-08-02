@@ -91,14 +91,7 @@ html {
 body {
  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);}
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important; }
+    }
 
 /* Type */
 body, input, select, textarea {
