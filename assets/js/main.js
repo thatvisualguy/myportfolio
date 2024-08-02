@@ -4,7 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-
 (function($) {
 
 	var	$window = $(window),
@@ -261,3 +260,25 @@
 			});
 
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const animatedElements = document.querySelectorAll('.animation');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        observer.unobserve(entry.target); // Stop observing once the animation is triggered
+      }
+    });
+  }, {
+    threshold: 0.1 // Adjust this value to trigger the animation earlier or later
+  });
+
+  animatedElements.forEach(element => {
+    observer.observe(element);
+  });
+});
+
+
+
