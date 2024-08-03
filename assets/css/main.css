@@ -2396,7 +2396,7 @@ font-family: 'Airbnb Cereal App'	}
 }
 
 .ProjectImage {
-  height: 310px;
+  height: 250px;
   overflow: hidden;
   width: 100%;
   border-radius: 20px;
@@ -2487,7 +2487,7 @@ font-family: 'Airbnb Cereal App'	}
 .animation.in-view {
   opacity: 1; /* Fade in */
   transform: translateX(0); /* Move to the original position */
-  
+}
 
 
 .fadeInUp {
@@ -2505,3 +2505,78 @@ font-family: 'Airbnb Cereal App'	}
     transform: translate3d(0, 0, 0);
   }
 }
+
+/*Testimonials*/
+.testbox {
+  padding: 20px;
+  margin: 20px;
+  min-height: 200px;
+  height: max-content;
+  border-radius: 20px;
+}
+
+.testtext{
+  padding-top: 20px;
+font-size: 14px;
+  color: white;
+}
+
+.testtext span{
+  display: flex;
+  justify-content:flex-end;
+}
+
+
+.quote{
+display: flex;
+  align-items: center;
+    justify-content: center;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.stars{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.stars i{
+  padding: 5px;
+}
+
+#aa{
+  background-color: #575ab7;
+  margin-top: 110px;
+  color: #575ab7;
+  font-size: 25px;
+  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+}
+#bb{
+  margin-top: 60px;
+  background-color: #b7a245;
+    color: #b7a245;
+  font-size: 25px;
+  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+}
+#cc{
+  margin-top: 10px;
+  background-color: #8bacaa;
+    color: #8bacaa;
+  font-size: 25px;
+  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+}
+
+#aa:hover, #bb:hover, #cc:hover{
+  transform: scale(1.03);
+  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.8);
+}
+
+ @media screen and (max-width: 480px) {
+	#aa, #bb, #cc{
+		margin-top: 10px;
+	 
+ }
