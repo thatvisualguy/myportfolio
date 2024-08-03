@@ -2337,6 +2337,7 @@ font-family: 'Airbnb Cereal App'	}
   }
 }
 
+/*Tech stack*/
 .w3-container{
 	padding: 0px;
 }
@@ -2382,52 +2383,89 @@ font-family: 'Airbnb Cereal App'	}
   box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
 }
 
+/*Featured Projects*/
 
-.content{
-	margin: 8px 0px;
-}
-
-.imagee img{
+.ProjectImage img {
   width: 100%;
-  transition: filter 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      object-fit: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
 }
 
-.imagee{
-  height:250px;
+.ProjectImage {
+  height: 310px;
   overflow: hidden;
   width: 100%;
   border-radius: 20px;
   position: relative;
-
 }
 
-.ptext{
-  margin-bottom: -40px;
-  color: white !important;
-  font-size: 30px;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out, margin-bottom 0.3s ease-in-out;
-  transition-delay: 0.2s;
-  font-size: 18px;
-  font-family: 'Airbnb Cereal App', serif;
-  width: max-content;
-  padding-left: 30px;
+.ProjectTitle{
+  height: 50px;
+ 
 }
-
-.imagee:hover img{
-  filter:blur(15px);
-}
-
-.imagee:hover .ptext{
+.ptext {
+  position: absolute;
+  color: black !important;
   opacity: 1;
-  margin-bottom: 0px;
+  transition-delay: 0.2s; 
+  font-size: 22px;
+  font-family: 'Airbnb Cereal App';
 }
 
+.ProjectContent:hover .ProjectImage #HeroImage {
+  transform: scale(1.1);
+}
+
+.ProjectContent:hover .LearnMore {
+  opacity: 1;
+}
+
+.LearnMore
+{
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #2575fc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2575fc !important;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.LearnMore:hover{
+    background-color: #2575fc;
+    color: white !important;
+}
+
+.ProjectImage:hover {
+  opacity: 1;
+  padding-top: 0px;
+}
+
+.AppIcon{
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+}
+.AppIcon img{
+  transform:scale(0.7);
+}
  @media screen and (max-width: 736px) {
 	 .imagee{
 	 height:200px;}
@@ -2450,26 +2488,6 @@ font-family: 'Airbnb Cereal App'	}
   opacity: 1; /* Fade in */
   transform: translateX(0); /* Move to the original position */
   
-#scrollToTop {
-    display: none; /* Hidden by default */
-    position: sticky; 
-    bottom: 20px; 
-    right: 20px; 
-    z-index: 99; 
-    background-color: #000; 
-    color: white; 
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px;
-    opacity: 0; /* Start with opacity 0 for fade-in effect */
-    transition: opacity 0.5s; /* Fade-in transition */
-    text-align: center; /* Center text inside the div */
-}
-
-#scrollToTop.show {
-    display: block; 
-    opacity: 1; /* Change opacity to 1 when showing */
-}
 
 
 .fadeInUp {
