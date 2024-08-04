@@ -43,8 +43,9 @@
 .item #pimage{
   border-radius: 15px;
   right: 0px;
-  width: 100%;
-  object-fit: cover;
+  width: 100% !important;
+  object-fit: cover !important;
+  min-height: 400px !important;
   height: inherit;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }

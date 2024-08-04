@@ -2613,24 +2613,24 @@ display: flex;
  }
  }
  
- .modal {
-            display: none; /* Hidden by default */
-            z-index: 1;
-            width: auto;
-            height: 100vh !important;
-            background-color: rgba(0, 0, 0, 0.4);
-}
-		
-.w3-modal-content{
-	width: 400px !important;
+ 
+ .tagtitle {
+	min-height:80px;
 	display: flex;
+    align-items: center;
 	justify-content: center;
-}
-		
-.modal img{
-	width: 100% !important; 
-	height: auto ; 
-	max-width: 100%;
-	border-radius: 25px;
-}
+ }
+ 
+ .tagtitle h5{
+	 color: #000;
+	 font-family:'Airbnb Cereal App';
+ }
 
+#tagg:hover {
+    background-color: transparent;
+	color:#2575fc !important;
+  }
+  
+ #navv{
+	 min-width: 130px !important;
+ }

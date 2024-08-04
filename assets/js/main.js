@@ -281,4 +281,41 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+//page navigation
+
+document.addEventListener('DOMContentLoaded', () => {
+    let currentPageIndex = 0;
+    let pages = [];
+
+    // Load the JSON file
+    fetch('C:\Users\VAIBHAV ZINZUVADIA\Desktop\Docs\Website_Portfolio templates\html5up-editorial\pageslist.json')
+        .then(response => response.json())
+        .then(data => {
+            pages = data.pages;
+            updatePage();
+        });
+
+    // Update the current page based on the current index
+    function updatePage() {
+        if (pages.length > 0) {
+            window.location.href = pages[currentPageIndex];
+        }
+    }
+
+    // Previous button click event
+    document.getElementById('prevbutton').addEventListener('click', () => {
+        if (currentPageIndex > 0) {
+            currentPageIndex--;
+            updatePage();
+        }
+    });
+
+    // Next button click event
+    document.getElementById('nextbutton').addEventListener('click', () => {
+        if (currentPageIndex < pages.length - 1) {
+            currentPageIndex++;
+            updatePage();
+        }
+    });
+});
 
