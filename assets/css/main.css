@@ -2206,8 +2206,14 @@ width: 100%;	  }
         width: 100%; } }
   @media screen and (orientation: portrait) and (max-width: 480px) {
     #banner .image {
-      max-height: 35vh; } }
-
+      max-height: 35vh;
+padding-right: 0px;	  } 
+	  #banner .image img{
+      width: 100%; } 
+	  #banner .content{
+		  padding-left: 0px;
+	  }
+}
 /* Footer */
 #footer .copyright {
   color: #9fa3a6;
