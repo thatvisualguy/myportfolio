@@ -78,9 +78,10 @@
 				$sidebar.addClass('inactive');
 			});
 
-			breakpoints.on('>large', function() {
-				$sidebar.removeClass('inactive');
+			breakpoints.on('<large', function() {
+				$sidebar.addClass('inactive');
 			});
+
 
 		// Hack: Workaround for Chrome/Android scrollbar position bug.
 			if (browser.os == 'android'
@@ -282,28 +283,35 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 //page navigation
-
+/*
 document.addEventListener('DOMContentLoaded', () => {
     let currentPageIndex = 0;
     let pages = [];
 
     // Load the JSON file
-    fetch('C:\Users\VAIBHAV ZINZUVADIA\Desktop\Docs\Website_Portfolio templates\html5up-editorial\pageslist.json')
+    fetch('https://raw.githubusercontent.com/thatvisualguy/myportfolio/main/pageslist.json')
         .then(response => response.json())
         .then(data => {
             pages = data.pages;
             updatePage();
-        });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
 
-    // Update the current page based on the current index
+    // Update the current page link based on the current index
     function updatePage() {
         if (pages.length > 0) {
-            window.location.href = pages[currentPageIndex];
+            const currentPageLink = document.getElementById('currentPageLink');
+            if (currentPageLink) {
+                currentPageLink.href = pages[currentPageIndex];
+            } else {
+                console.error('Current page link element not found.');
+            }
         }
     }
 
     // Previous button click event
-    document.getElementById('prevbutton').addEventListener('click', () => {
+    document.getElementById('prevButton').addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default anchor click behavior
         if (currentPageIndex > 0) {
             currentPageIndex--;
             updatePage();
@@ -311,7 +319,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Next button click event
-    document.getElementById('nextbutton').addEventListener('click', () => {
+    document.getElementById('nextButton').addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default anchor click behavior
         if (currentPageIndex < pages.length - 1) {
             currentPageIndex++;
             updatePage();
@@ -319,3 +328,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+console.log(document.getElementById('prevButton'));
+console.log(document.getElementById('nextButton'));
+console.log(document.getElementById('currentPageLink'));
+
+*/

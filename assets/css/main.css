@@ -1221,6 +1221,7 @@ input[type="radio"] + label:before {
   display: inline-block;
   position: relative; }
   .image img {
+	width: 50px;
     border-radius: 0.375em;
     display: block; }
   .image.left, .image.right {
@@ -2142,7 +2143,8 @@ width: 100%;	  }
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    width: 50%; }
+    width: 50%; 
+	padding-left: 30px;}
   #banner .image {
     -moz-flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -2154,7 +2156,10 @@ width: 100%;	  }
     flex-shrink: 0;
     display: block;
     margin: 0 0 2em 4em;
-    width: 50%; }
+    width: 50%; 
+	display: flex;
+    justify-content: flex-end;
+	padding-right: 30px;}
     #banner .image img {
       height: 100%;
       -moz-object-fit: cover;
@@ -2165,7 +2170,8 @@ width: 100%;	  }
       -webkit-object-position: center;
       -ms-object-position: center;
       object-position: center;
-      width: 100%; }
+          width: 60%; 
+		border-radius:20px;}
   @media screen and (orientation: portrait) {
     #banner {
       -moz-flex-direction: column-reverse;
@@ -2582,3 +2588,44 @@ display: flex;
  }
  }
  
+ /*Services*/
+ .servicebox{
+display:flex;
+  justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  margin: 0px 40px 0px 40px;
+}
+
+.servicecont{
+  height: 200px;
+  width: 200px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service:hover img{
+  transform:translateY(-10px);
+}
+
+.service img{
+  transition: transform 0.3s ease-in-out;
+}
+
+.servicename{
+	color: black;
+	font-family: 'Airbnb Cereal App';
+	padding-top: 20px;
+	font-weight: 500;
+}
+
+.brand i{
+	font-size: 20px;
+	transition: transform 0.3s ease-in-out;
+}
+
+.brand:hover i{
+	transform:scale(1.2);
+}
+
