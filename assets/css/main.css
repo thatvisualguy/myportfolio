@@ -1497,11 +1497,11 @@ button,
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  background-color: transparent;
   border-radius: 30px;
   border: 0;
-  box-shadow: inset 0 0 0 2px #2575fc, 5px 5px #2575fc;
-  color: #2575fc ;
+  box-shadow: inset 0 0 0 2px #2575fc;
+  background-color: #2575fc;
+  color: white ;
   cursor: pointer;
   display: inline-block;
   font-family: "Airbnb Cereal App", serif;
@@ -1514,7 +1514,9 @@ button,
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  white-space: nowrap; }
+  white-space: nowrap;
+ }
+ 
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   input[type="button"]:hover,
@@ -2565,21 +2567,21 @@ display: flex;
   margin-top: 110px;
   color: #575ab7;
   font-size: 25px;
-  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 #bb{
   margin-top: 60px;
   background-color: #b7a245;
     color: #b7a245;
   font-size: 25px;
-  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 #cc{
   margin-top: 10px;
   background-color: #8bacaa;
     color: #8bacaa;
   font-size: 25px;
-  transition: transform 0.3s ease-in-out, testbox-shadow 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 #aa:hover, #bb:hover, #cc:hover{
