@@ -21,6 +21,12 @@
         transform: scale(1.1);
 		box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
     }
+
+    .item:hover #pimage1{
+      transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
+  }
+
 .item:hover .AllLearnMore{
         opacity: 1;
     }
@@ -40,6 +46,16 @@
   color: black;
 }
 
+.item #pimage1{
+  border-radius: 15px;
+  right: 0px;
+  width: 100% !important;
+  object-fit: cover !important;
+  height: inherit;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
 .item #pimage{
   border-radius: 15px;
   right: 0px;
@@ -50,13 +66,13 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-.item1 { grid-row: span 10; background-color: transparent; }
-.item2 { grid-row: span 14; background-color: transparent; }
+.item1 { grid-row: span 11; background-color: transparent; }
+.item2 { grid-row: span 12; background-color: transparent; }
 .item3 { grid-row: span 13; background-color: transparent; }
 .item4 { grid-row: span 11; background-color: transparent; }
 .item5 { grid-row: span 10; background-color: transparent; }
-.item6 { grid-row: span 12; background-color: transparent; }
-.item7 { grid-row: span 14; background-color: transparent; }
+.item6 { grid-row: span 15; background-color: transparent; }
+.item7 { grid-row: span 12; background-color: transparent; }
 .item8 { grid-row: span 13; background-color: transparent; }
 .item9 { grid-row: span 11; background-color: transparent; }
 .item10 { grid-row: span 13; background-color: transparent;}
