@@ -112,7 +112,7 @@
 .marquee__item:nth-of-type(7):hover,
 .marquee__item:nth-of-type(8):hover {
     
-    box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
+    box-shadow: 0 4px 16px rgb(117, 117, 117);
 }
 
 .image-number {
