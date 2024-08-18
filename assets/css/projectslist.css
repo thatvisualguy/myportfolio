@@ -17,14 +17,15 @@
         color: #fff;
         overflow: hidden;
     }
+
     .item:hover #pimage{
         transform: scale(1.1);
-		box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
+  		  box-shadow: 0 4px 16px rgb(0, 0, 0);
     }
 
     .item:hover #pimage1{
       transform: scale(1.1);
-  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.3);
+      box-shadow: 0 4px 16px rgb(0, 0, 0);
   }
 
 .item:hover .AllLearnMore{
@@ -88,7 +89,7 @@
 .AllLearnMore
 {
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   height: 40px;
   width: 40px;
   background-color: transparent;
@@ -122,7 +123,8 @@
 .AllAppIcon img{
   transform:scale(0.65);
 }
-	 @media screen and (max-width: 480px){
-	 .item{
-	 grid-row: span 10;
-	 }
+	 
+@media screen and (max-width: 480px){
+.item{
+  grid-row: span 10;
+}

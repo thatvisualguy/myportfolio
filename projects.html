@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="assets/css/scrolltotop.css" />
+
 </head>
 
 <body class="is-preload">
@@ -26,7 +28,6 @@
     <!-- Main -->
     <div id="main">
       <div class="inner">
-
         <!-- Header -->
         <header id="header" class="fade-in">
           <a href="index.html" class="logo"><strong>ALL</strong>PROJECTS </a>
@@ -80,8 +81,8 @@
             </div>
           </div>
           <div class="item item2 excel" data-aos="zoom-in" data-aos-delay="500">
-            <div class="w3-display-container projectt"> <img id="pimage1"
-                src="images/thumbnails/executive.png">
+            <div class="w3-display-container projectt"> 
+              <img id="pimage1" src="images/thumbnails/executive.png">
               <div class="w3-display-topright AllAppIcon">
                 <img width="48" height="48" src="https://img.icons8.com/color/500/microsoft-excel-2019--v1.png"
                   alt="microsoft-excel-2019--v1" />
@@ -464,6 +465,10 @@
     </div>
 
   </div>
+
+  <!--scroll to top-->
+  <a href="#" id="return-to-top"><i class="icon solid fa-chevron-up"></i></a>
+
   <!-- Scripts -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/browser.min.js"></script>
@@ -471,6 +476,8 @@
   <script src="assets/js/util.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="assets/js/scrolltotop.js"></script>
+
   <script>
     AOS.init({
       once: true // This will ensure the animations happen only once
@@ -519,13 +526,8 @@
       });
       AOS.refresh();
     }
-
   </script>
 
-  <style>
-
-
-  </style>
 </body>
 
 </html>

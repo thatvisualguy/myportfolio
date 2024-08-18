@@ -16,6 +16,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="assets/css/techstack.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+	<link rel="stylesheet" href="assets/css/scrolltotop.css" />
+
 </head>
 
 <body class="is-preload">
@@ -56,8 +59,8 @@
 										class="fa-solid fa-chevron-right"></span></a></li>
 						</ul>
 					</div>
-					<span class="image object" data-aos="zoom-in" data-aos-delay="800">
-						<img src="images/pic10.jpg" alt="" />
+					<span class="image object" data-aos="zoom-in" data-aos-delay="800" >
+						<img src="images/pic10.jpg" alt="" data-tilt/>
 					</span>
 				</section>
 				<section>
@@ -502,6 +505,10 @@
 		</div>
 
 	</div>
+
+	<!--scroll to top-->
+	<a href="#" id="return-to-top"><i class="icon solid fa-chevron-up"></i></a>
+
 	<!-- Scripts -->
 	<script src="assets/js/techstack.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
@@ -510,6 +517,9 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+	<script src="assets/js/tilt.jquery.js"></script>
+	<script src="assets/js/scrolltotop.js"></script>
+	
 	<script>
 		AOS.init({
 			once: true // This will ensure the animations happen only once
