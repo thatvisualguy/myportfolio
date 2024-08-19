@@ -1,3 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+  --font3: "Urbanist", sans-serif; 
+  --font2: "Oswald", sans-serif;
+  --font1: "Bricolage Grotesque", sans-serif;
+  --bgcolor-light: #eef1f5;
+  --fontcolor-light: #161616;
+  
+  --bgcolor-dark: #0f0d17;
+  --fontcolor-dark: #d3d3d3;
+}
+
    .masonry {
 	   margin: 20px 0px 50px 0px;
         display: grid;
@@ -7,14 +21,14 @@
 		font-family:'Airbnb Cereal App';
     }
  .item {
-        background-color: #ffffff;
+        background-color: inherit;
         flex-direction: column;
         box-sizing: border-box;
         
         transition: transform 0.3s;
         display: flex;
         font-size: 1.2em;
-        color: #fff;
+        color: inherit;
         overflow: hidden;
     }
 
@@ -44,7 +58,7 @@
 }
 
 .text{
-  color: black;
+  color: inherit;
 }
 
 .item #pimage1{
@@ -127,4 +141,67 @@
 @media screen and (max-width: 480px){
 .item{
   grid-row: span 10;
+}
+}
+
+/* Light / Dark Mode*/
+#modetoggle {
+  position: relative;
+  display: flex;
+}
+
+.mode {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--fontcolor-dark);
+cursor: pointer;
+}
+
+
+.sun, .moon{
+transition: opacity 0.2s ease, transform 0.5s ease, color 0.3s ease-in-out;
+font-size: 24px;
+}
+
+.sun{
+opacity: 1;
+transform: scale(1);
+}
+
+.sun:hover{
+  color: #2575fc !important;
+}
+
+.moon{
+opacity: 0;
+transform: scale(0);
+right: 15px;
+}
+
+.moon:hover{
+  color: #2575fc !important;
+}
+
+.light-mode .moon{
+opacity: 1;
+transform: scale(1);
+color: var(--fontcolor-light);
+font-size: 34px !important;
+}
+
+.light-mode .sun{
+opacity: 0;
+transform: scale(0);
+}
+
+.dark-mode {
+  background-color: var(--bgcolor-dark);
+  color: var(--fontcolor-dark);
+}
+
+.light-mode {
+  background-color: var(--bgcolor-light) !important;
+  color: var(--fontcolor-light);
 }

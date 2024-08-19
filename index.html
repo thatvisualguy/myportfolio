@@ -32,7 +32,7 @@
 				<!-- Header -->
 				<header id="header" class="fade-in">
 
-					<a href="index.html" class="logo"><strong>HOME</strong>PAGE </a>
+					<a href="index.html" class="logo"><strong>HOME </strong>PAGE </a>
 					<ul class="icons">
 						<li><a href="index.html" class="icon brand"><i class="fa-solid fa-house"></i><span
 									class="label">Home</span></a></li>
@@ -42,10 +42,10 @@
 									class="label">About me</span></a></li>
 						<li>
 							<div id="modetoggle" class="container">
-								<div onclick="darkMode()" class="mode sun icon brand">
+								<div id="sun" onclick="darkMode()" class="mode sun icon brand">
 									<i class="fa-solid fa-sun"></i>
 								</div>
-								<div onclick="darkMode()" class="mode moon icon brand">
+								<div id="moon" onclick="darkMode()" class="mode moon icon brand">
 									<i class="fa-solid fa-moon"></i>
 								</div>
 							</div>
@@ -274,40 +274,36 @@
 						<div class="w3-row servicebox">
 							<div class="w3-col l2 m2 w3-padding servicecont" data-aos="zoom-in" data-aos-delay="100">
 								<div class="service">
-									<img width="100" height="100"
-										src="https://img.icons8.com/pulsar-color/500/performance-macbook.png"
-										alt="performance-macbook" />
+									<img width="100" height="100" 
+									src="https://img.icons8.com/fluency/500/dashboard-layout.png" alt="dashboard-layout"/>
 									<div class="servicename">Dashboard Creation</div>
 								</div>
 							</div>
 							<div class="w3-col l2 m2 w3-padding servicecont" data-aos="zoom-in" data-aos-delay="200">
 								<div class="service">
-									<img width="100" height="100"
-										src="https://img.icons8.com/pulsar-color/500/prototype.png" alt="prototype" />
+									<img width="100" height="100" 
+									src="https://img.icons8.com/parakeet/500/paint-palette.png" alt="paint-palette"/>
 									<div class="servicename">Optimization and redesign</div>
 								</div>
 							</div>
 							<div class="w3-col l2 m2 w3-padding servicecont" data-aos="zoom-in" data-aos-delay="300">
 								<div class="service">
-									<img width="100" height="100"
-										src="https://img.icons8.com/pulsar-color/500/very-popular-topic.png"
-										alt="very-popular-topic" />
+									<img width="100" height="100" 
+									src="https://img.icons8.com/parakeet/500/speaker-notes.png" alt="speaker-notes"/>
 									<div class="servicename">Expert consultation</div>
 								</div>
 							</div>
 							<div class="w3-col l2 m2 w3-padding servicecont" data-aos="zoom-in" data-aos-delay="400">
 								<div class="service">
-									<img width="100" height="100"
-										src="https://img.icons8.com/pulsar-color/500/placeholder-thumbnail-xml.png"
-										alt="placeholder-thumbnail-xml" />
+									<img width="100" height="100" 
+									src="https://img.icons8.com/fluency/500/source-code.png" alt="source-code"/>
 									<div class="servicename">No-code app development</div>
 								</div>
 							</div>
 							<div class="w3-col l2 m2 w3-padding servicecont" data-aos="zoom-in" data-aos-delay="500">
 								<div class="service">
-									<img width="100" height="100"
-										src="https://img.icons8.com/pulsar-color/500/sync-settings.png"
-										alt="sync-settings" />
+									<img width="100" height="100" 
+									src="https://img.icons8.com/parakeet/500/settings-3.png" alt="settings-3"/>
 									<div class="servicename">Workflow Automation</div>
 								</div>
 							</div>
@@ -394,13 +390,7 @@
 		<div id="sidebar" class="inactive">
 			<div class="inner fade-in slideInRight">
 
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
-
+				
 				<!-- Menu -->
 				<nav id="menu">
 					<header class="major">
@@ -523,29 +513,12 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 	<script src="assets/js/tilt.jquery.js"></script>
 	<script src="assets/js/scrolltotop.js"></script>
+	<script src="assets/js/darkmode.js"></script>
 	<script>
 		AOS.init({
 			once: true // This will ensure the animations happen only once
 		});
 
-		function darkMode() {
-			var element = document.getElementById("main");
-			element.classList.toggle("light-mode");
-			var element1 = document.body;
-			element1.classList.toggle("light-mode");
-		}
-
-		// Function to toggle the mode
-		function toggleMode() {
-			// Toggle the dark-mode class on the body
-			document.body.classList.toggle("dark-mode");
-			darkmode();
-		}
-
-		// Attach the toggleMode function to the sun and moon divs
-		//document.getElementById("sun").onclick = toggleMode;
-		//document.getElementById("moon").onclick = toggleMode;
-	</script>
 	</script>
 
 	<style>

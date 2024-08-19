@@ -1,0 +1,56 @@
+Project Root
+|--assets
+|	|--css
+|		|--animate.css
+|		|--animations.css
+|		|--fontawesone-all.min.css
+|		|--magnific-popup.css
+|		|--main.css
+|		|--projects.css
+|		|--projectslist.css
+|		|--scrolltotop.css
+|		|--techstack.css
+|		
+|	|--js
+|		|--animations.js
+|		|--breakpoints.min.js
+|		|--browser.min.js
+|		|--jquery.min.js
+|		|--main.js
+|		|--scrolltotop.js
+|		|--techstack.js
+|		|--tilt.jquery.js
+|		|--util.js
+|		
+|	|--sass	
+|	|--webfonts
+|	
+|--fonts
+|	|--airbnb-cereal-app-book.tff
+|	
+|--images
+|	|--favicon
+|	|--projects
+|	|--services-light
+|	|--thumbnails
+|	
+|--other pages
+|	|--hover.html
+|	|--masonry.html
+|	|--popup imgae slider.html
+|	|--stats.html
+	
+|--projects
+	|--executive
+	|--hrprod
+	|--kaizen
+	|--portfolio
+	|--salespbi
+	|--tradehive
+	|--winvest
+	
+|--elements.html
+|--generic.html
+|--index.html
+|--projects
+|--Readme
