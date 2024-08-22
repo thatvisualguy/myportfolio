@@ -8,6 +8,8 @@
 */
 
 :root {
+  --header-color: #2575fc;
+
   --font3: "Urbanist", sans-serif;
   --font2: "Oswald", sans-serif;
   --font1: "Bricolage Grotesque", sans-serif;
@@ -3474,6 +3476,7 @@ button:disabled,
 
 #banner h1 {
   margin-top: -0.125em;
+  color: var(--header-color) !important;
 }
 
 #banner .content {

@@ -12,14 +12,24 @@
   --fontcolor-dark: #d3d3d3;
 }
 
-   .masonry {
+   .masonry-main {
 	   margin: 20px 0px 50px 0px;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         grid-auto-rows: 10px;
         gap: 20px;
-		font-family:'Airbnb Cereal App';
+		font-family: var(--font3);
     }
+
+    .masonry {
+      margin: 20px 0px 50px 0px;
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+         grid-auto-rows: 10px;
+         gap: 20px;
+     font-family: var(--font3);
+     }
+
  .item {
         background-color: inherit;
         flex-direction: column;
@@ -82,23 +92,23 @@
 }
 
 .item1 { grid-row: span 11; background-color: transparent; }
-.item2 { grid-row: span 12; background-color: transparent; }
-.item3 { grid-row: span 13; background-color: transparent; }
+.item2 { grid-row: span 11; background-color: transparent; }
+.item3 { grid-row: span 11; background-color: transparent; }
 .item4 { grid-row: span 11; background-color: transparent; }
-.item5 { grid-row: span 10; background-color: transparent; }
-.item6 { grid-row: span 15; background-color: transparent; }
-.item7 { grid-row: span 12; background-color: transparent; }
-.item8 { grid-row: span 13; background-color: transparent; }
+.item5 { grid-row: span 11; background-color: transparent; }
+.item6 { grid-row: span 11; background-color: transparent; }
+.item7 { grid-row: span 11; background-color: transparent; }
+.item8 { grid-row: span 11; background-color: transparent; }
 .item9 { grid-row: span 11; background-color: transparent; }
-.item10 { grid-row: span 13; background-color: transparent;}
-.item11 { grid-row: span 14; background-color: transparent; }
-.item12 { grid-row: span 10; background-color: transparent; }
-.item13 { grid-row: span 14; background-color: transparent; }
-.item14 { grid-row: span 14; background-color: transparent; }
-.item15 { grid-row: span 13; background-color: transparent; }
-.item16 { grid-row: span 12; background-color: transparent; }
-.item17 { grid-row: span 13; background-color: transparent; }
-.item18 { grid-row: span 12; background-color: transparent; }
+.item10 { grid-row: span 11; background-color: transparent;}
+.item11 { grid-row: span 11; background-color: transparent; }
+.item12 { grid-row: span 11; background-color: transparent; }
+.item13 { grid-row: span 11; background-color: transparent; }
+.item14 { grid-row: span 11; background-color: transparent; }
+.item15 { grid-row: span 11; background-color: transparent; }
+.item16 { grid-row: span 11; background-color: transparent; }
+.item17 { grid-row: span 11; background-color: transparent; }
+.item18 { grid-row: span 11; background-color: transparent; }
 
 .AllLearnMore
 {
@@ -138,11 +148,6 @@
   transform:scale(0.65);
 }
 	 
-@media screen and (max-width: 480px){
-.item{
-  grid-row: span 10;
-}
-}
 
 /* Light / Dark Mode*/
 #modetoggle {
