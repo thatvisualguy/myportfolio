@@ -3505,7 +3505,7 @@ button:disabled,
   margin: 0 0 2em 4em;
   width: 50%;
   display: flex;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 #banner .image img {
@@ -3519,7 +3519,7 @@ button:disabled,
   -ms-object-position: center;
   object-position: center;
   width: 100%;
-  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out; border-radius: 20px;
 }
 
 #banner p {
