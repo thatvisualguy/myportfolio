@@ -159,7 +159,7 @@
 
 .marquee--9 .marquee__item2:nth-of-type(1) {
     --marquee-item-index: 1;
-    background-color: #96c3e1;
+    background-color: #f0e4aa;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
@@ -173,7 +173,7 @@
 
 .marquee--9 .marquee__item2:nth-of-type(3) {
     --marquee-item-index: 3;
-    background-color: #f8bfaf;
+    background-color: #c085bc;
     border-radius: 20px;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
