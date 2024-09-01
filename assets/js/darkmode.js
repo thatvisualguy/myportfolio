@@ -1,11 +1,7 @@
-
-
 function darkMode() {
     var element = document.getElementById("main");
     element.classList.toggle("light-mode");
     document.body.classList.toggle("light-mode");
-    var element1 = document.getElementById("sidebar");
-    element1.classList.toggle("light-mode");
 
     // Check if the dark mode is enabled or not
     if (document.body.classList.contains("light-mode")) {
@@ -21,7 +17,7 @@ function applySavedTheme() {
     if (savedTheme === "light") {
         document.getElementById("main").classList.add("light-mode");
         document.body.classList.add("light-mode");
-        document.getElementById("sidebar").classList.add("light-mode");
+
     }
 }
 
