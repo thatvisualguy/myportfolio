@@ -16,50 +16,50 @@
             </div>
             <div class="col " id="proj">
                 <h4>PowerBI</h4>
-                <a href=""> Sales Dashboard</a><br>
-                Wheels 4 all<br>
-                Deneb/SVG visuals<br>
-                Kaizen Korner<br>
-                Credit Card Dashboard<br>
-                Winvest<br>
-                Portfolio Tracker<br>
+                <a href="projects/salespbi.html"> Sales Dashboard</a><br>
+                <a href="projects/wheels4all.html">Wheels 4 all</a><br>
+                <a href="projects/deneb-svg.html">Deneb/SVG visuals</a><br>
+                <a href="projects/kaizen.html">Kaizen Korner</a><br>
+                <a href="projects/creditcard.html">Credit Card Dashboard</a><br>
+                <a href="projects/winvest.html">Winvest</a><br>
+                <a href="projects/portfolio.html">Portfolio Tracker</a><br>
             </div>
             <div class="col " id="proj">
                 <h4>Excel</h4>
-                Executive Dashboard<br>
-                Sales Dashboard<br>
-                Complaints Dashboard<br>
-                HR & Production Dashboard<br>
+                <a href="projects/excecutive.html">Executive Dashboard</a><br>
+                <a href="projects/salesexcel.html">Sales Dashboard</a><br>
+                <a href="projects/complaints.html">Complaints Dashboard</a><br>
+                <a href="projects/hrprod.html">HR & Production Dashboard</a><br>
             </div>
             <div class="col " id="proj">
                 <h4>Tableau</h4>
-                HR Analytics<br>
-                Real Estate Analysis<br>
+                <a href="projects/hrtableau.html">HR Analytics</a><br>
+                <a href="projects/realestate.html">Real Estate Analysis</a><br>
             </div>
 
             <div class="col " id="proj">
                 <h4>Power Automate</h4>
-                Power Platform Updates<br>
-                PO Approvals<br>
+                <a href="projects/salespbi.html">Power Platform Updates</a><br>
+                <a href="projects/poapproval.html">PO Approvals</a><br>
             </div>
 
             <div class="col " id="proj">
                 <h4>Glide Apps</h4>
-                Amazon Analytics <br>
-                Residexx <br>
-                TradeHive <br>
+                <a href="projects/aa.html">Amazon Analytics</a> <br>
+                <a href="projects/residexx.html">Residexx</a> <br>
+                <a href="projects/tradehive.html">TradeHive</a> <br>
             </div>
         </div>
 
         <div class="w3-row" id="contact">
             <div class="w3-col l9">
-                <div class="w3-col l4">
+                <div class="w3-col l4" id="about">
                     <img src="images/telephone.png" width="20px"> +91-9427501019
                 </div>
-                <div class="w3-col l4">
+                <div class="w3-col l4" id="about">
                     <img src="images/email.png" width="20px"> informiumlabs@gmail.com
                 </div>
-                <div class="w3-col l4">
+                <div class="w3-col l4" id="about">
                     <img src="images/location.png" width="20px"> Mumbai, India
                 </div>
             </div>
@@ -70,12 +70,12 @@
         </div>
 
         <div class="w3-col pages" id="links">
-            <span>Home</span>
-            <span> Projects </span>
-            <span> About Me </Span>
+            <span><a href="index.html">Home</a></span>
+            <span><a href="projects.html">Projects</a></span>
+            <span><a href="aboutme.html">About Me</a></Span>
         </div>
         <div class="w3-col name" id="links">
-            <h7 >Made with ❤️ by Vaibhav</h7>
+            <h7>Made with ❤️ by Vaibhav</h7>
         </div>
 
     </footer>
@@ -85,15 +85,15 @@
         @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
         .footer {
-            background-color: #dce8fc;
+            background-color: #e6eefc;
             width: 100%;
             height: 100%;
             font-size: 12px;
-            padding-bottom: 40px;
             font-family: 'Nunito Sans';
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.364);
             padding-top: 20px;
             border-top: 5px solid #2575fc;
+            padding-bottom: 20px;
         }
 
         .display {
@@ -110,7 +110,7 @@
         #proj {
             width: 15%;
             line-height: 25px;
-            border-left: 1px solid rgba(0, 0, 0, 0.157);
+            border-left: 1px solid rgba(0, 0, 0, 0.08);
             padding: 10px;
         }
 
@@ -120,10 +120,10 @@
         }
 
         #contact {
-            margin: 4em 0 1em 0;
+            margin: 1em 0 1em 0;
             padding: 1em 3em 1em 3em;
-            border-top: 1px solid rgb(0, 0, 0, 0.157);
-            border-bottom: 1px solid rgb(0, 0, 0, 0.157);
+            border-top: 1px solid rgb(0, 0, 0, 0.08);
+            border-bottom: 1px solid rgb(0, 0, 0, 0.08);
             display: flex;
             align-items: center;
             flex-wrap: wrap;
@@ -131,18 +131,24 @@
         }
 
         #links {
-            margin: 1em 0 1em 0;
-            padding: 1em 3em 0em 3em;
-display: flex;
-justify-content: center;
+            margin: 0.5em 0 1em 0;
+            padding: 0em 3em 0em 3em;
+            display: flex;
+            justify-content: center;
+           
         }
 
-       #links span{
-        font-size: 13;
-        font-family: 'Nunito Sans';
-       }
+        #links span {
+            font-size: 13;
+            font-family: 'Nunito Sans'; 
+        }
 
-   
+        #links span a{
+            border-bottom: 0;
+            text-decoration: none;
+        }
+
+
 
         .pages span:nth-of-type(2),
         .pages span:nth-of-type(3) {
@@ -161,7 +167,7 @@ justify-content: center;
 
             #main2 {
                 width: 100%;
-                padding-bottom: 10px;
+                padding-bottom: 0px;
             }
 
             .display {
@@ -169,7 +175,7 @@ justify-content: center;
             }
 
             .cta {
-                padding-top: 10px;
+                padding-top: 30px;
                 text-align: left;
             }
 
@@ -180,7 +186,11 @@ justify-content: center;
 
             #contact,
             #links {
-                padding: 1em 0 1em 0;
+                padding: 1em 0 1em 0 !important;
+            }
+
+            #about{
+                padding-top: 20px;
             }
         }
     </style>
