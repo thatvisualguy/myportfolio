@@ -26,7 +26,7 @@ function includeHTML(file, containerID, callback) {
 
   // Include header and footer, and execute a callback
   document.addEventListener('DOMContentLoaded', function() {
-    includeHTML('https://raw.githubusercontent.com/thatvisualguy/myportfolio/main/sidebar.html', 'menu', function() {
+    includeHTML('https://raw.githubusercontent.com/thatvisualguy/myportfolio/main/footer.html', 'footer', function() {
       console.log('Header loaded successfully!');
     });
 });
