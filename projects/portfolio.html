@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -19,6 +14,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 	<link rel="stylesheet" href="../assets/css/scrolltotop.css" />
+	<script src="https://cdn.lordicon.com/lordicon.js"></script>
 
 
 </head>
@@ -34,24 +30,44 @@
 
 				<!-- Header -->
 				<header id="header" class="fade-in">
-					<a href="index.html" class="logo"><strong>Power BI</strong> Project</a>
+					<a href="#" class="logo"><strong>Power BI</strong> Project</a>
 					<ul class="icons">
-						<li><a href="../index.html" class="icon brand"><i class="fa-solid fa-house"></i><span
-									class="label">Home</span></a></li>
-						<li><a href="../projects.html" class="icon brand"><i class="fa-solid fa-list-check"></i><span
-									class="label">Projects</span></a></li>
-						<li><a href="#" class="icon brand"><i class="fa-solid fa-circle-info"></i><span
-									class="label">About me</span></a></li>
-									<li>
-										<div id="modetoggle" class="container">
-											<div id="sun" onclick="darkMode()" class="mode sun icon brand">
-												<i class="fa-solid fa-sun"></i>
-											</div>
-											<div id="moon" onclick="darkMode()" class="mode moon icon brand">
-												<i class="fa-solid fa-moon"></i>
-											</div>
-										</div>
-									</li>
+						<li><a href="../index.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover" stroke="bold"
+									state="hover-partial-roll" colors="primary:#2575fc,secondary:#2575fc"
+									style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
+						<li><a href="../projects.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/qmsejndz.json" trigger="hover" stroke="bold"
+									colors="primary:#2575fc,secondary:#2575fc" style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
+						<li><a href="../aboutme.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/bgebyztw.json" trigger="hover" stroke="bold"
+									state="hover-looking-around" colors="primary:#2575fc,secondary:#2575fc"
+									style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
+						<li>
+							<div id="modetoggle" class="container">
+								<div id="sun" onclick="darkMode()" class="mode sun icon brand">
+									<lord-icon src="https://cdn.lordicon.com/pwlnbxzy.json" trigger="hover"
+										stroke="bold" colors="primary:#2575fc,secondary:#2575fc"
+										style="width:30px;height:30px">
+									</lord-icon>
+								</div>
+								<div id="moon" onclick="darkMode()" class="mode moon icon brand">
+									<lord-icon src="https://cdn.lordicon.com/qhsqomjd.json" trigger="hover"
+										stroke="bold" colors="primary:#2575fc,secondary:#2575fc"
+										style="width:30px;height:30px">
+									</lord-icon>
+								</div>
+							</div>
+						</li>
 					</ul>
 				</header>
 
@@ -61,17 +77,18 @@
 						<header>
 							<h1 style="color: #1d5dc9">Portfolio Project</h1>
 						</header>
-						<p>The client wanted to create a PowerBI dashboard that would enable them to 
-							see all their investments across various asset classes in a single report The 
-							challanging task was to keep the values in the dashboard upto date with the latest 
-							values. We tackled this through a series of brainstorming sessions and some out-of-the box thinking.</p>
+						<p>The client wanted to create a PowerBI dashboard that would enable them to
+							see all their investments across various asset classes in a single report The
+							challanging task was to keep the values in the dashboard upto date with the latest
+							values. We tackled this through a series of brainstorming sessions and some out-of-the box
+							thinking.</p>
 						<ul class="actions">
-							<li><a href="#" class="button big">Learn More <span
+							<li><a href="#" class="button big" onclick="scrollDown()">Learn More <span
 										class="fa-solid fa-chevron-right"></span></a></li>
 						</ul>
 					</div>
 					<span class="image object" data-aos="zoom-in">
-						<img src="../images/thumbnails/portfolio.png" alt="" data-tilt/>
+						<img src="../images/thumbnails/portfolio.png" alt="" data-tilt />
 					</span>
 				</section>
 				<section>
@@ -206,12 +223,9 @@
 						<div class="item item1" data-aos="zoom-in" data-aos-delay="200">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/01.png"
-										title="Homepage">
-										<img id="pimage"
-											src="../images/Projects/portfolio/01.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/01.png"
+										title="Investment Overview">
+										<img id="pimage" src="../images/Projects/portfolio/01.png" alt="1.jpg" />
 									</a>
 								</div>
 							</div>
@@ -221,27 +235,21 @@
 						<div class="item item3" data-aos="zoom-in" data-aos-delay="500">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/02.png"
-										title="Trade Calendar">
-										<img id="pimage"
-											src="../images/Projects/portfolio/02.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/02.png"
+										title="Stocks Overview">
+										<img id="pimage" src="../images/Projects/portfolio/02.png" alt="2.jpg" />
 									</a>
 								</div>
 							</div>
 						</div>
-						
+
 						<!--3-->
 						<div class="item item3" data-aos="zoom-in" data-aos-delay="700">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/03.png"
-										title="Trades List">
-										<img id="pimage"
-											src="../images/Projects/portfolio/03.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/03.png"
+										title="ETFs Overview">
+										<img id="pimage" src="../images/Projects/portfolio/03.png" alt="3.jpg" />
 									</a>
 								</div>
 							</div>
@@ -251,12 +259,9 @@
 						<div class="item item4" data-aos="zoom-in" data-aos-delay="000">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/04.png"
-										title="Learning Section">
-										<img id="pimage"
-											src="../images/Projects/portfolio/04.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/04.png"
+										title="Mutual Fund Overview">
+										<img id="pimage" src="../images/Projects/portfolio/04.png" alt="4.jpg" />
 									</a>
 								</div>
 							</div>
@@ -266,12 +271,9 @@
 						<div class="item item5" data-aos="zoom-in" data-aos-delay="000">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/05.png"
-										title="Chart patterns">
-										<img id="pimage"
-											src="../images/Projects/portfolio/05.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/05.png"
+										title="Crypto Overview">
+										<img id="pimage" src="../images/Projects/portfolio/05.png" alt="5.jpg" />
 									</a>
 								</div>
 							</div>
@@ -282,12 +284,9 @@
 						<div class="item item6" data-aos="zoom-in" data-aos-delay="000">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/06.png"
-										title="Chart pattern details">
-										<img id="pimage"
-											src="../images/Projects/portfolio/06.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/06.png"
+										title="Gold Overview">
+										<img id="pimage" src="../images/Projects/portfolio/06.png" alt="6.jpg" />
 									</a>
 								</div>
 							</div>
@@ -297,12 +296,9 @@
 						<div class="item item7" data-aos="zoom-in" data-aos-delay="000">
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
-									<a class="image-popup-vertical-fit"
-										href="../images/Projects/portfolio/07.png"
-										title="New Trade page">
-										<img id="pimage"
-											src="../images/Projects/portfolio/07.png"
-											alt="9.jpg" />
+									<a class="image-popup-vertical-fit" href="../images/Projects/portfolio/07.png"
+										title="REIT Overview">
+										<img id="pimage" src="../images/Projects/portfolio/07.png" alt="7.jpg" />
 									</a>
 								</div>
 							</div>
@@ -312,165 +308,16 @@
 					</div>
 				</section>
 
-				<!--Tags-->
-
-				<div class="w3-display-container">
-					<div class="w3-row">
-						<div class="w3-col butt">
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Data Analysis</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Data Visualization</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Power BI</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Stock Market</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Finance</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Excel</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Dashboards</a>
-						</div>
-					</div>
+				<div class="w3-display-container pagination" style="padding: 30px 0px;">
 				</div>
-
-
-				<div class="w3-display-container pagination" style="padding: 50px 0px;">
-					<a id="prevButton" href="../index.html" class="button"><span
-							class="fa-solid fa-chevron-left"></span> Previous</a>
-					<a id="nextButton" href="../elements.html" class="button w3-right">Next <span
-							class="fa-solid fa-chevron-right"></span></a>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- Sidebar -->
-		<div id="sidebar" class="inactive">
-			<div class="inner fade-in slideInRight">
-
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
-
-				<!-- Menu -->
-				<nav id="menu">
-					<header class="major">
-						<h2>Menu</h2>
-					</header>
-					<ul>
-						<li><a href="../index.html">Homepage</a></li>
-						<li><a href="../generic.html">About Me</a></li>
-						<li><a href="../elements.html">Blog</a></li>
-						<li><a href="../projects.html">Projects</a></li>
-						<li>
-							<span class="opener">Power BI</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Power Automate</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Power Apps</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Tableau</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Excel</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Glide</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-
-				<!-- Section -->
-				<section>
-					<header class="major">
-						<h2>Blog Posts</h2>
-					</header>
-					<div class="mini-posts">
-						<article>
-							<a href="#" class="image"><img src="../images/pic07.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../images/pic08.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../images/pic09.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-					</div>
-					<ul class="actions">
-						<li><a href="#" class="button">More</a></li>
-					</ul>
-				</section>
-
-				<!-- Section -->
-				<section>
-					<header class="major">
-						<h2>Get in touch</h2>
-					</header>
-					<p>I would love to hear more from you.</p>
-					<ul class="contact">
-						<li class="icon solid fa-envelope"><a href="#">informiumlabs@gmail.com</a></li>
-						<li class="icon solid fa-phone">(+91) 9427501019</li>
-						<li class="icon solid fa-home">Mumbai, India</li>
-					</ul>
-				</section>
-
-				<!-- Footer -->
-				<footer id="footer">
-					<p class="copyright" style="text-align: center"> Made with ❤️ by Vaibhav</p>
-				</footer>
 
 			</div>
 		</div>
 
 	</div>
-	
+
+	<div id="footer" data-aos="fade-up"></div>
+
 	<!--scroll to top-->
 	<a href="#" id="return-to-top"><i class="icon solid fa-chevron-up"></i></a>
 
@@ -486,7 +333,8 @@
 	<script src="../assets/js/tilt.jquery.js"></script>
 	<script src="../assets/js/scrolltotop.js"></script>
 	<script src="../assets/js/darkmode.js"></script>
-	
+	<script src="../include-html.js"></script>
+
 	<script>
 		AOS.init({
 			once: true // This will ensure the animations happen only once
@@ -515,6 +363,13 @@
 			});
 
 		});
+
+		function scrollDown() {
+			window.scrollBy({
+				top: 650, // Scroll down by 200px
+				behavior: 'smooth' // Smooth scrolling effect
+			});
+		}
 
 	</script>
 </body>

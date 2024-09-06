@@ -218,7 +218,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  background: var(--bgcolor-dark) ;
 }
 
 
@@ -3108,7 +3108,7 @@ button:disabled,
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   width: 100%;
-  background: var(--bgcolor-dark);
+  background: var(--bgcolor-dark) ;
 }
 
 #main>.inner {
@@ -3119,7 +3119,7 @@ button:disabled,
 
 #main>.inner>section {
   padding: 6em 0 4em 0;
-  border-top: solid 1px #B8CEF5;
+ /* border-top: solid 1px #B8CEF5;*/
 }
 
 #main>.inner>section:first-of-type {

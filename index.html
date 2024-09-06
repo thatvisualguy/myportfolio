@@ -87,7 +87,7 @@
 							businesses grow and succeed. I hope you enjoy browsing through my work and learning more
 							about me. </p>
 						<ul class="actions">
-							<li><a href="#" class="button big">Learn More <span
+							<li><a href="#" class="button big" onclick="scrollDown()">Learn More <span
 										class="fa-solid fa-chevron-right"></span></a></li>
 						</ul>
 					</div>
@@ -451,7 +451,7 @@
 					</div>
 				</section>
 				<!-- Footer -->
-				
+
 			</div>
 			<div id="footer" data-aos="fade-up"></div>
 		</div>
@@ -480,6 +480,13 @@
 		AOS.init({
 			once: true // This will ensure the animations happen only once
 		});
+
+		function scrollDown() {
+			window.scrollBy({
+				top: 600, // Scroll down by 200px
+				behavior: 'smooth' // Smooth scrolling effect
+			});
+		}
 
 	</script>
 

@@ -1,14 +1,9 @@
 <!DOCTYPE HTML>
-<!--
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
 	<title>PO Approvals</title>
-	<link rel="icon" href="../images/favicon/powerbi.png" type="image/x-icon">
+	<link rel="icon" href="../images/favicon/powerautomate.png" type="image/x-icon">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="../assets/css/projects.css" />
@@ -19,6 +14,7 @@
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 	<link rel="stylesheet" href="../assets/css/scrolltotop.css" />
+	<script src="https://cdn.lordicon.com/lordicon.js"></script>
 
 </head>
 
@@ -33,21 +29,41 @@
 
 				<!-- Header -->
 				<header id="header" class="fade-in">
-					<a href="index.html" class="logo"><strong>Power Automate</strong> Project</a>
+					<a href="#" class="logo"><strong>Power Automate</strong> Project</a>
 					<ul class="icons">
-						<li><a href="../index.html" class="icon brand"><i class="fa-solid fa-house"></i><span
-									class="label">Home</span></a></li>
-						<li><a href="../projects.html" class="icon brand"><i class="fa-solid fa-list-check"></i><span
-									class="label">Projects</span></a></li>
-						<li><a href="#" class="icon brand"><i class="fa-solid fa-circle-info"></i><span
-									class="label">About me</span></a></li>
+						<li><a href="../index.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover" stroke="bold"
+									state="hover-partial-roll" colors="primary:#2575fc,secondary:#2575fc"
+									style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
+						<li><a href="../projects.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/qmsejndz.json" trigger="hover" stroke="bold"
+									colors="primary:#2575fc,secondary:#2575fc" style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
+						<li><a href="../aboutme.html" class="icon brand">
+								<lord-icon src="https://cdn.lordicon.com/bgebyztw.json" trigger="hover" stroke="bold"
+									state="hover-looking-around" colors="primary:#2575fc,secondary:#2575fc"
+									style="width:30px;height:30px">
+								</lord-icon>
+							</a>
+						</li>
 						<li>
 							<div id="modetoggle" class="container">
 								<div id="sun" onclick="darkMode()" class="mode sun icon brand">
-									<i class="fa-solid fa-sun"></i>
+									<lord-icon src="https://cdn.lordicon.com/pwlnbxzy.json" trigger="hover"
+										stroke="bold" colors="primary:#2575fc,secondary:#2575fc"
+										style="width:30px;height:30px">
+									</lord-icon>
 								</div>
 								<div id="moon" onclick="darkMode()" class="mode moon icon brand">
-									<i class="fa-solid fa-moon"></i>
+									<lord-icon src="https://cdn.lordicon.com/qhsqomjd.json" trigger="hover"
+										stroke="bold" colors="primary:#2575fc,secondary:#2575fc"
+										style="width:30px;height:30px">
+									</lord-icon>
 								</div>
 							</div>
 						</li>
@@ -60,20 +76,16 @@
 						<header>
 							<h1 style="color: #1d5dc9">Purchase Order Approvals</h1>
 						</header>
-						<p>The Client is a major retail distributor of USA. They wanted to track the sales, revenue
-							and key product metrics in an easy to understand, intituve and insightful manner hence,
-							we used PowerBI to address his challanges. The Dashboard consists of 2 pages: Sales
-							Dashboard
-							and Demographics Dashboard. Each of the page contains the key mterics and accompaying visual
-							from the Sales and Demographics prespective. The client also requested to have a dark mode
-							and
-							a mobile view for better accessibility. My approach towards the project was to initially
-							understand
-							the data, connect the data sources to PowerBI, clean the data in PowerQuery, build a data
-							model and
-							finally display the metrics/visuals as per client requirement.</p>
+						<p>This Power Automate project streamlines the Purchase Order (PO)
+							approval process. The user submits a PO requirement through Microsoft
+							Forms, and based on the PO amount, the approval request is automatically
+							routed to the appropriate approver, such as a manager, MD, or supervisor.
+							Once approved, a Microsoft Teams notification is sent, and the relevant
+							Excel file in SharePoint is updated. This automated workflow enhances
+							efficiency, reduces manual intervention, and ensures real-time updates
+							for tracking purchase orders, ensuring the process is smooth and well-documented.</p>
 						<ul class="actions">
-							<li><a href="#" class="button big">Learn More <span
+							<li><a href="#" class="button big" onclick="scrollDown()">Learn More <span
 										class="fa-solid fa-chevron-right"></span></a></li>
 						</ul>
 					</div>
@@ -88,7 +100,7 @@
 					<div class="w3-container stats-container">
 						<div class="w3-row-padding">
 							<div class="w3-col l4 m6 stats-box" data-aos="zoom-in">
-								<p class="number">Banking</p>
+								<p class="number">Manufacturing</p>
 								<p class="text">Industry</p>
 							</div>
 							<div class="w3-col l4 m6 stats-box" data-aos="zoom-in" data-aos-delay="300">
@@ -96,8 +108,8 @@
 								<p class="text">Project Duration</p>
 							</div>
 							<div class="w3-col l4 m12 stats-box" data-aos="zoom-in" data-aos-delay="600">
-								<p class="number">2</p>
-								<p class="text">Dashboards/Reports Created</p>
+								<p class="number">1</p>
+								<p class="text">Flows Created</p>
 							</div>
 						</div>
 					</div>
@@ -122,11 +134,11 @@
 									</div>
 									<div class="toolslist">
 										<ul>
-											<li>Power BI</li>
+											<li>Power Automate</li>
 											<li>Excel</li>
-											<li>SQL Server</li>
-											<li>Power Query</li>
-											<li>Azure DevOps</li>
+											<li>Sharepoint</li>
+											<li>MS Forms</li>
+											<li>MS Teams</li>
 										</ul>
 									</div>
 								</div>
@@ -139,10 +151,8 @@
 									<div class="toolslist">
 										<ul>
 											<li>Data Integration</li>
-											<li>Data Sorting</li>
-											<li>Database Management</li>
-											<li>Data Visualization</li>
-											<li>Dashboard Development</li>
+											<li>Data Collection</li>
+											<li>Approval Flow</li>
 										</ul>
 									</div>
 								</div>
@@ -154,7 +164,7 @@
 				<!-- Section -->
 				<section>
 					<header class="major" data-aos="fade-up">
-						<h2>Visualizations and Features</h2>
+						<h2>Actions and Features</h2>
 					</header>
 					<!--featured projects-->
 					<div class="w3-display-container">
@@ -167,17 +177,14 @@
 							<div class="w3-col l4 m4  tntcont" data-aos="zoom-in" data-aos-delay="200">
 								<div class="tools">
 									<div class="toolstitle">
-										<span class="fa-solid fa-chart-pie"></span> Visuals<br>
+										<span class="fa-solid fa-chart-pie"></span> Actions Used<br>
 									</div>
 									<div class="toolslist">
 										<ul>
-											<li>KPI cards</li>
-											<li>Combo chart</li>
-											<li>Line Chart</li>
-											<li>Horizontal and Vertical Bar charts</li>
-											<li>Waterfall chart</li>
-											<li>Map</li>
-											<li>Word cloud</li>
+											<li>Approvals</li>
+											<li>Teams Notification</li>
+											<li>Updating Excel on flow completion</li>
+											<li>Flow is triggered on submitting a 'Form'</li>
 										</ul>
 									</div>
 								</div>
@@ -189,12 +196,12 @@
 									</div>
 									<div class="toolslist">
 										<ul>
-											<li>Advanced Filters</li>
-											<li>Dark mode</li>
-											<li>Dashboard optimised for mobile</li>
-											<li>Power BI Service setup</li>
-											<li>Auto data refresh</li>
-											<li>SQL server setup</li>
+											<li>Automated PO Submission via Microsoft Forms</li>
+											<li>Dynamic Approval Routing Based on PO Amount</li>
+											<li>Approval Notifications via Microsoft Teams</li>
+											<li>Excel File Updates Stored in SharePoint</li>
+											<li>Role-Based Approvals (Manager, MD, Supervisor)</li>
+											<li>Real-Time Workflow Automation</li>
 										</ul>
 									</div>
 								</div>
@@ -217,8 +224,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/01.png"
-										title="Dashboard-1">
-										<img id="pimage" src="../images/Projects/poapprovals/01.png" alt="9.jpg" />
+										title="Flow chart of the approval process">
+										<img id="pimage" src="../images/Projects/poapprovals/01.png" alt="1.jpg" />
 									</a>
 								</div>
 							</div>
@@ -229,8 +236,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/02.png"
-										title="Dashboard-2">
-										<img id="pimage" src="../images/Projects/poapprovals/02.png" alt="9.jpg" />
+										title="Flow-1">
+										<img id="pimage" src="../images/Projects/poapprovals/02.png" alt="2.jpg" />
 									</a>
 								</div>
 							</div>
@@ -241,8 +248,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/03.png"
-										title="Dashboard-1 (Dark Mode)">
-										<img id="pimage" src="../images/Projects/poapprovals/03.png" alt="9.jpg" />
+										title="Flow-2">
+										<img id="pimage" src="../images/Projects/poapprovals/03.png" alt="3.jpg" />
 									</a>
 								</div>
 							</div>
@@ -253,8 +260,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/04.png"
-										title="Dashboard-1">
-										<img id="pimage" src="../images/Projects/poapprovals/04.png" alt="9.jpg" />
+										title="Flow-3">
+										<img id="pimage" src="../images/Projects/poapprovals/04.png" alt="4.jpg" />
 									</a>
 								</div>
 							</div>
@@ -265,8 +272,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/05.png"
-										title="Dashboard-2">
-										<img id="pimage" src="../images/Projects/poapprovals/05.png" alt="9.jpg" />
+										title="Request Submission Form">
+										<img id="pimage" src="../images/Projects/poapprovals/05.png" alt="5.jpg" />
 									</a>
 								</div>
 							</div>
@@ -277,8 +284,8 @@
 							<div class="w3-display-container projectt">
 								<div class="magnific-img">
 									<a class="image-popup-vertical-fit" href="../images/Projects/poapprovals/06.png"
-										title="Dashboard-1 (Dark Mode)">
-										<img id="pimage" src="../images/Projects/poapprovals/06.png" alt="9.jpg" />
+										title="Excel Backend">
+										<img id="pimage" src="../images/Projects/poapprovals/06.png" alt="6.jpg" />
 									</a>
 								</div>
 							</div>
@@ -288,164 +295,15 @@
 					</div>
 				</section>
 
-				<!--Tags-->
-
-				<div class="w3-display-container">
-					<div class="w3-row">
-						<div class="w3-col butt">
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Data Analysis</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Data Visualization</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Glide Apps</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Stock Market</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Finance</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Excel</a>
-							<a id="tagg" class="button"
-								style="color: gray; transform: scale(0.9); box-shadow: none;">#Dashboards</a>
-						</div>
-					</div>
+				<div class="w3-display-container pagination" style="padding: 30px 0px;">
 				</div>
-
-
-				<div class="w3-display-container pagination" style="padding: 50px 0px;">
-					<a id="prevButton" href="../index.html" class="button"><span
-							class="fa-solid fa-chevron-left"></span> Previous</a>
-					<a id="nextButton" href="../elements.html" class="button w3-right">Next <span
-							class="fa-solid fa-chevron-right"></span></a>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- Sidebar -->
-		<div id="sidebar" class="inactive">
-			<div class="inner fade-in slideInRight">
-
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
-
-				<!-- Menu -->
-				<nav id="menu">
-					<header class="major">
-						<h2>Menu</h2>
-					</header>
-					<ul>
-						<li><a href="../index.html">Homepage</a></li>
-						<li><a href="../generic.html">About Me</a></li>
-						<li><a href="../elements.html">Blog</a></li>
-						<li><a href="../projects.html">Projects</a></li>
-						<li>
-							<span class="opener">Power BI</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Power Automate</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Power Apps</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Tableau</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Excel</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-						<li>
-							<span class="opener">Glide</span>
-							<ul>
-								<li><a href="#">Project 1</a></li>
-								<li><a href="#">Project 2</a></li>
-								<li><a href="#">Project 3</a></li>
-								<li><a href="#">Project 4</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-
-				<!-- Section -->
-				<section>
-					<header class="major">
-						<h2>Blog Posts</h2>
-					</header>
-					<div class="mini-posts">
-						<article>
-							<a href="#" class="image"><img src="../images/pic07.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../images/pic08.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-						<article>
-							<a href="#" class="image"><img src="../images/pic09.jpg" alt="" /></a>
-							<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
-						</article>
-					</div>
-					<ul class="actions">
-						<li><a href="#" class="button">More</a></li>
-					</ul>
-				</section>
-
-				<!-- Section -->
-				<section>
-					<header class="major">
-						<h2>Get in touch</h2>
-					</header>
-					<p>I would love to hear more from you.</p>
-					<ul class="contact">
-						<li class="icon solid fa-envelope"><a href="#">informiumlabs@gmail.com</a></li>
-						<li class="icon solid fa-phone">(+91) 9427501019</li>
-						<li class="icon solid fa-home">Mumbai, India</li>
-					</ul>
-				</section>
-
-				<!-- Footer -->
-				<footer id="footer">
-					<p class="copyright" style="text-align: center"> Made with ❤️ by Vaibhav</p>
-				</footer>
 
 			</div>
 		</div>
 
 	</div>
+
+	<div id="footer" data-aos="fade-up"></div>
 
 	<!--scroll to top-->
 	<a href="#" id="return-to-top"><i class="icon solid fa-chevron-up"></i></a>
@@ -463,6 +321,7 @@
 	<script src="../assets/js/tilt.jquery.js"></script>
 	<script src="../assets/js/scrolltotop.js"></script>
 	<script src="../assets/js/darkmode.js"></script>
+	<script src="../include-html.js"></script>
 
 	<script>
 		AOS.init({
@@ -492,6 +351,13 @@
 			});
 
 		});
+
+		function scrollDown() {
+			window.scrollBy({
+				top: 650, // Scroll down by 200px
+				behavior: 'smooth' // Smooth scrolling effect
+			});
+		}
 
 	</script>
 </body>
