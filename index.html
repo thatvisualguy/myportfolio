@@ -91,10 +91,12 @@
 							<h1 style="color: #1d5dc9">Hi, I’m <strong style="color: #1d5dc9">Vaibhav</strong></h1>
 							<p>Data analyst and no-code developer</p>
 						</header>
-						<p>I’m a Data analyst and a No-code Developer with 6+ years of experience in diverse work
-							environments. I have a passion for transforming data into insights and solutions that help
-							businesses grow and succeed. I hope you enjoy browsing through my work and learning more
-							about me. </p>
+						<p>I bring 6+ years of experience in crafting innovative solutions 
+							that streamline business processes. My focus is on data visualization, 
+							business intelligence, and workflow automation, delivering custom solutions 
+							that drive smarter, data-driven decisions. I have a passion for transforming 
+							data into insights and solutions that help businesses grow and succeed. I hope you enjoy browsing 
+							through my work and learning more about me. </p>
 						<ul class="actions">
 							<li><a href="#" class="button big" onclick="scrollDown()">Learn More <span
 										class="fa-solid fa-chevron-right"></span></a></li>
@@ -104,7 +106,8 @@
 						<img src="images/pic10.jpg" alt="" data-tilt />
 					</span>
 				</section>
-				<section>
+
+				<section id="stats">
 					<header class="major" data-aos="fade-up">
 						<h2>Stats</h2>
 					</header>
@@ -177,9 +180,9 @@
 
 					<div class="marquee2 marquee--9" data-aos="fade-up" data-aos-delay="200">
 						<div class="marquee__item2">
-							<img width="98" height="98" src="https://img.icons8.com/fluency/500/python.png" alt="python"
+							<img width="98" height="98" src="images/airtable.svg" alt="airtable"
 								style="display: inline-block; vertical-align: middle" />
-							<div class="image-number">Python</div>
+							<div class="image-number">Airtable</div>
 						</div>
 						<div class="marquee__item2">
 							<img width="98" height="98"
@@ -491,11 +494,10 @@
 		});
 
 		function scrollDown() {
-			window.scrollBy({
-				top: 600, // Scroll down by 200px
-				behavior: 'smooth' // Smooth scrolling effect
-			});
-		}
+    document.getElementById('stats').scrollIntoView({
+        behavior: 'smooth' // Smooth scrolling effect
+    });
+}
 
 	</script>
 

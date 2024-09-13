@@ -1,0 +1,345 @@
+/*.w3-container .footer{
+  padding: 16px !important;
+}
+
+.w3-container {
+  margin-top: 50px;
+}*/
+
+.image {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.image:hover {
+  box-shadow: 0 4px 16px rgba(158, 158, 158, 0.827);
+}
+
+.approach {
+  padding: 50px 0px;
+}
+
+.spacer {
+  margin-top: 50px;
+}
+
+.rect {
+  margin: 20px;
+  height: 45px !important;
+  width: 45px !important;
+  background-color: #2575fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.rect img,
+.rect2 img {
+  filter: invert(100%);
+}
+
+.description p {
+  font-size: 14px;
+}
+
+#last {
+  margin-bottom: 50px;
+}
+
+/*.stories{
+    border-radius: 20px;
+    margin: 100px 0px 0px 0px;
+  }*/
+
+.success {
+  background-color: rgb(21, 21, 21);
+  margin: 25px;
+  border-radius: 20px;
+  height: 330px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.demo {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.AppIcon {
+  margin: 30px 30px 15px 30px;
+  width: 70px;
+  height: 70px;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.stories {
+  padding: 50px 0px;
+}
+
+.successcontent {
+  margin: 0px 30px;
+  font-size: 14px;
+}
+
+.successbutton {
+  margin: 30px 30px;
+}
+
+.success:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.8);
+}
+
+.services h2,
+.stories h2,
+.contact2 h2 {
+  padding-left: 20px;
+  border-bottom: solid 3px #2575fc;
+  padding: 0 0.75em 0.5em 0;
+  width: fit-content;
+}
+
+
+.rect2 {
+  margin: 15px;
+  height: 45px !important;
+  width: 45px !important;
+  background-color: #2575fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.servicename h5 {
+  margin-bottom: -15px;
+}
+
+.servicename {
+  padding-top: 0px;
+}
+
+.success:hover .AppIcon {
+  transform: translateX(150%);
+}
+
+#servicecont:hover {
+  transform: scale(1.02);
+  background-color: rgb(9, 9, 9);
+  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.8);
+}
+
+#servicecont {
+  padding-top: 15px;
+  min-height: 150px;
+  border-radius: 20px;
+  margin: 5px;
+  transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact2 {
+  padding: 50px 0px;
+}
+
+.myphoto {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 30px;
+  max-height: 620px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.myphoto img {
+  width: 100%;
+
+}
+
+.myphoto:hover {
+  box-shadow: 0 4px 16px rgba(158, 158, 158, 0.707);
+}
+
+#contact_us {
+  margin-top: 25px;
+  margin-left: 80px;
+}
+
+.contact h3 {
+  margin-top: 30px;
+}
+
+.email,
+.upwork,
+.meeting {
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  background-color: #183b6b;
+  align-items: center;
+  height: 150px;
+  border-radius: 20px;
+}
+
+.email {
+  margin-right: 25px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.upwork {
+  margin-left: 25px;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.meeting {
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.a1 {
+  padding-top: 65px;
+  position: relative;
+  transition: top 0.5s ease-in-out, padding-top 0.3s ease-in-out, opacity 0.3s ease;
+}
+
+
+.b1 {
+  position: relative;
+  padding-top: 65px;
+  transition: padding-top 0.5s ease-in-out, transform 0.5s ease-in-out, opacity 0.3s ease;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.b1 a {
+  text-decoration: none;
+  border-bottom: 0;
+}
+
+.email:hover .b1 {
+  padding-top: 65px;
+  transform: translateY(-60px);
+  opacity: 1;
+}
+
+.upwork:hover .b1 {
+  padding-top: 65px;
+  transform: translateY(-55px);
+  opacity: 1;
+}
+
+.meeting:hover .b1 {
+  padding-top: 65px;
+  transform: translateY(-35px);
+  opacity: 1;
+}
+
+.email:hover .a1,
+.upwork:hover .a1,
+.meeting:hover .a1 {
+  padding-top: 0px;
+  opacity: 0;
+}
+
+.email:hover,
+.upwork:hover,
+.meeting:hover {
+  box-shadow: 0 4px 16px rgba(158, 158, 158, 0.501);
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+
+#approach {
+  background-color: #0b2141;
+}
+
+#services {
+  background-color: #0a1a31;
+}
+
+#success {
+  background-color: #0b2141;
+}
+
+.light-mode #approach {
+  background-color: #d6dfe9;
+}
+
+.light-mode #services {
+  background-color: #eef1f5;
+}
+
+.light-mode #success {
+  background-color: #d6dfe9;
+}
+
+.light-mode #servicecont:hover {
+  background-color: rgb(246, 246, 246) !important;
+}
+
+.light-mode .success {
+  background-color: #f2f2f2;
+}
+
+.light-mode .AppIcon {
+  background-color: #e1e1e1;
+}
+
+.light-mode .email,
+.light-mode .upwork,
+.light-mode .meeting {
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 480px) {
+  .success {
+    margin: 0px;
+  }
+
+  .myphoto {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  #contact_us {
+    margin-left: 0px;
+  }
+
+  .email {
+    margin-right: 0px;
+  }
+
+  .upwork {
+    margin-left: 0px;
+  }
+
+  .services h2,
+  .stories h2,
+  .contact2 h2 {
+    padding-left: 0px;
+  }
+
+  .rect {
+    margin: 20px 20px 20px 10px;
+  }
+
+  .rect2 {
+    margin: 15px 15px 15px 10px;
+  }
+}
