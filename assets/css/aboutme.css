@@ -150,7 +150,7 @@
 #servicecont:hover {
   transform: scale(1.02);
   background-color: rgb(9, 9, 9);
-  box-shadow: 0 4px 16px rgba(121, 116, 155, 0.8);
+  box-shadow: 0 4px 16px rgba(97, 97, 97, 0.282);
 }
 
 

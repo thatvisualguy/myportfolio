@@ -3112,7 +3112,7 @@ button:disabled,
 }
 
 #main>.inner>section {
-  padding: 6em 0 4em 0;
+  padding: 50px 0 100px 0;
   /*border-top: solid 1px #B8CEF5;*/
 }
 
@@ -3126,7 +3126,7 @@ button:disabled,
   }
 
   #main>.inner>section {
-    padding: 5em 0 3em 0;
+    padding: 50px 0 100px 0;
   }
 }
 
@@ -3136,7 +3136,7 @@ button:disabled,
   }
 
   #main>.inner>section {
-    padding: 4em 0 2em 0;
+    padding: 50px 0 100px 0;
   }
 }
 
@@ -4166,4 +4166,12 @@ button:disabled,
 .light-mode #menu ul a {
   background-color: var(--bgcolor-sidebar-light) !important;
   color: var(--font-sidebar-light) !important;
+}
+
+#statssection, #featprojects, #testimonials, #footercont{
+  background-color: #0b2141;
+}
+
+.light-mode #statssection, .light-mode #featprojects, .light-mode #testimonials, .light-mode #footercont{
+  background-color: #d6dfe9;
 }
